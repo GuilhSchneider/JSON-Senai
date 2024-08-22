@@ -18,6 +18,5 @@ function cadastrarNoSenai(){
     console.log(meuJSON)
     console.log(cadastroSenai.valueOf())
 
-    // if(){}
     document.getElementById("cadastrado").innerHTML = "Cadastro concluido"
 }
