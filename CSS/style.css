@@ -1,0 +1,147 @@
+body{
+background-image: url(../Img/fundo\ do\ Site.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#superior{
+    background-color: rgb(126, 126, 126);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#logo{
+    height: 100px;
+    padding: 0px 0px 0px 25px;
+}
+
+#cadastro{
+    padding: 180px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#subCadastro{
+    background-color: rgba(175, 175, 175, 0.637);
+    filter: drop-shadow(10px 10px 10px #ff0000);
+    width: 350px;
+    padding: 25px 0px 25px 0px;
+    border-radius: 5px;
+}
+
+#labelNome,#labelCPF,#labelEMail,#labelDataDeNascimento,#labelEscolaridade,#labelCurso,#labelUnidadeDoSenai,#labelSenha{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#labelNome{
+    padding-right: 205px;
+}
+
+#inputNome{
+    width: 320px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelCPF{
+    padding-right: 131px;
+}
+
+#inputCPF{
+    width: 152px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelEMail{
+    padding-right: 110px;
+}
+
+#inputEMail{
+    width: 160px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelDataDeNascimento{
+    padding-right: 24px;
+}
+
+#inputDataDeNascimento {
+    width: 152px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelEscolaridade{
+    padding-right: 65px;
+}
+
+#inputEscolaridade{
+    width: 160px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelCurso{
+    padding-right: 120px;
+}
+
+#labelUnidadeDoSenai{
+    padding-right: 35px;
+}
+
+#inputCurso{
+    width: 152px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#inputUnidadeDoSenai{
+    width: 160px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#labelSenha{
+    padding-right: 270px;
+}
+
+#inputSenha{
+    width: 320px;
+    height: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#botaoCadastrar {
+    border: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    transition: 0.5s;
+}
+
+#botaoCadastrar:hover{
+    width: 320px;
+}
+
+#cadastrado{
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+}

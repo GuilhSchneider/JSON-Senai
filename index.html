@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI - Cadastro</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="png" href="Img/Icon do senai.png">
+</head>
+<body>
+    <div id="superior">
+        <img id="logo" src="Img/Logo do senai.png" alt="">
+    </div>
+    <div id="cadastro">
+        <div id="subCadastro">
+            <label id="labelNome" for="">Nome Completo</label><br>
+            <input id="inputNome" placeholder="Digite o seu nome completo" type="text"><br><br> 
+            <label id="labelCPF" for="">CPF</label>
+            <label id="labelEMail" for="">E-Mail</label> <br>
+            <input id="inputCPF" placeholder="Digite o seu CPF" type="number">
+            <input id="inputEMail" placeholder="Digite o seu E-Mail" type="email"><br><br>
+            <label id="labelDataDeNascimento" for="">Data de nascimento</label>
+            <label id="labelEscolaridade" for="">Escolaridade</label> <br>
+            <input id="inputDataDeNascimento" placeholder="Digite a sua data de nascimento" type="text">
+            <input id="inputEscolaridade" placeholder="Digite a sua Escolaridade" type="text"><br><br>
+            <label id="labelCurso" for="">Curso</label>
+            <label id="labelUnidadeDoSenai" for="">Unidade do Senai</label> <br>
+            <input id="inputCurso" placeholder="Digite qual o curso" type="text">
+            <input id="inputUnidadeDoSenai" placeholder="Digite a Unidade do Senai" type="text"><br><br>
+            <label id="labelSenha" for="">Senha</label><br>
+            <input id="inputSenha" placeholder="Digite uma senha" type="password"><br><br>
+
+            <button onclick="cadastrarNoSenai()" id="botaoCadastrar">Cadastrar</button>
+
+            <div id="cadastrado"></div>
+
+        </div>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
